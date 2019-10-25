@@ -1,0 +1,18 @@
+body {
+  background-color: #A5CCD1;
+}
+
+.gravatar {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.input-user {
+  margin-bottom: 1em;
+}
+
+.Gravatar-img {
+  -webkit-box-shadow: 0.4em 0.4em 1em #E0FBFC;
+          box-shadow: 0.4em 0.4em 1em #E0FBFC;
+}
+/*# sourceMappingURL=style.css.map */

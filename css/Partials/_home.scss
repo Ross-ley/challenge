@@ -1,0 +1,15 @@
+@import "../variables/variables";
+
+body {
+    background-color: $background-color;
+}
+.gravatar{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.input-user{
+    margin-bottom: 1em;
+}
+.Gravatar-img{
+    box-shadow: 0.4em 0.4em 1em $box-shadow;
+}
