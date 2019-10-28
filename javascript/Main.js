@@ -41,47 +41,12 @@ async function run(email) {
         return showMessage('Gravatar account not found', 'danger');
     }
 
-    // for(var i = 0; i < account.length; i++) {
-    //     var obj = account[i];
-    
-    //     console.log(obj.id);
-    // } 
-    // myObj.cars["car2"];
 
     var $imgs = $("<img src="+ url +" alt='Gravatar img' class='Gravatar-img' id=" + hash +">");
 
     $("#display").append($imgs);
-    // $("#display").innerHTML =  account.name[givenName];
-
-    console.log(account.name[0]);
-
-    console.log(request);
-    console.log(url);
-
-
-
-    var test = new XMLHttpRequest();
-    test.open('GET', account, true);
-    test.onload = function () {
-
-    var data = JSON.parse(this.response);
-    if (test.status >= 200 && test.status < 400) {
-        console.log(data);
-    } else {
-        const errorMessage = document.createElement('marquee');
-        errorMessage.textContent = `Gah, it's not working!`;
-        app.appendChild(errorMessage);
-    }
-    };
-    test.send();
-
-    console.log(test);
 
 }
-
-// ross.ley1997@gmail.com
-
-//unknow if i will add this in
 
 
 

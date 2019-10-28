@@ -14,5 +14,6 @@ body {
 .Gravatar-img {
   -webkit-box-shadow: 0.4em 0.4em 1em #E0FBFC;
           box-shadow: 0.4em 0.4em 1em #E0FBFC;
+  margin: 5px;
 }
 /*# sourceMappingURL=style.css.map */
